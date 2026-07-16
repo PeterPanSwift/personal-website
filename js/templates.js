@@ -8,6 +8,14 @@
   const ext = 'target="_blank" rel="noopener"';
 
   function buildTemplates(d) {
+    // 講座課程依開始時間由新到舊排序（從 date 欄位開頭解析日期，
+    // 支援 2026/7/13、2026/7、2026/2 ~ 2026/6 等格式；只有年月視為該月 1 號）
+    const courseStartTime = (course) => {
+      const m = course.date.match(/(\d{4})\/(\d{1,2})(?:\/(\d{1,2}))?/);
+      return m ? new Date(+m[1], +m[2] - 1, +(m[3] || 1)).getTime() : 0;
+    };
+    const featuredSorted = [...d.courses.featured].sort((a, b) => courseStartTime(b) - courseStartTime(a));
+
     return {
 
       nav: d.nav.map((item) =>
@@ -75,7 +83,7 @@
     <h2 class="reveal">${d.courses.title}</h2>
     <p class="section-lead reveal">${d.courses.leadText}<a href="${d.courses.leadLinkUrl}" ${ext}>${d.courses.leadLinkText}</a></p>
     <div class="course-grid">
-      ${d.courses.featured.map((c) => `
+      ${featuredSorted.map((c) => `
       <div class="course-card reveal">
         <span class="course-tag">${c.tag}</span>
         <h3>${c.title}</h3>

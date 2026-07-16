@@ -19,7 +19,7 @@ const DIST = path.join(ROOT, 'dist');
 const siteData = require('./js/data.js');
 const buildTemplates = require('./js/templates.js');
 
-// ---- 1. 渲染 HTML ----
+// ---- 1. 渲染 HTML（講座課程排序在 js/templates.js 內處理）----
 let html = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
 const t = buildTemplates(siteData);
 
