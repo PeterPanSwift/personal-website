@@ -56,8 +56,11 @@ const siteData = {
       image: 'images/classroom.jpg',
       heading: '學生們精心創作的作業',
       text: '從零開始的初學者，到能獨立完成上架 App 的開發者 — 開發教室裡累積了無數精彩的學生作品。',
-      buttonText: '前往 App 作品集 →',
-      url: 'https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4',
+      buttons: [
+        { text: 'App 作品集 1', url: 'https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4' },
+        { text: 'App 作品集 2', url: 'https://medium.com/海大-ios-app-程式設計' },
+        { text: 'App 作品集 3', url: 'https://medium.com/台大-cs-x-ios-app-程式設計' },
+      ],
     },
     qaTitle: 'iOS App 開發 Q & A・學習資源',
     qa: [

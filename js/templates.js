@@ -47,7 +47,9 @@
       <div class="classroom-body">
         <h3>${d.classroom.card.heading}</h3>
         <p>${d.classroom.card.text}</p>
-        <a class="btn btn-primary" href="${d.classroom.card.url}" ${ext}>${d.classroom.card.buttonText}</a>
+        <div class="btn-row">
+          ${d.classroom.card.buttons.map((b) => `<a class="btn btn-primary" href="${b.url}" ${ext}>${b.text}</a>`).join('')}
+        </div>
       </div>
     </div>
     <h3 class="sub-heading reveal">${d.classroom.qaTitle}</h3>
