@@ -107,7 +107,7 @@ const siteData = {
       { tag: '跨平台', title: '彼得潘的 Flutter 跨平台 App 程式設計入門', date: '2026/7，ispan 資展國際', text: '學習 Flutter 跨平台 App 開發的最新技術：Dart、Flutter SDK、VS Code，成為酷炫的 Flutter App 開發魔法師！' },
       { tag: '大學課程', title: '海洋大學 Flutter App 入門', date: '2026/2 ~ 2026/6', text: '海洋大學資工系 Flutter 跨平台 App 開發課程。' },
       { tag: '大學課程', title: '海洋大學 SwiftUI iOS App 入門', date: '2026/9 ~ 2027/1', text: '海洋大學資工系 SwiftUI iOS App 開發課程。' },
-      { tag: 'Python', title: '海洋大學 Python 程式語言與資料處理', date: '2026/2 ~ 2026/6', text: 'Python 程式語言與資料處理課程。' },
+      { tag: 'Python', title: '海洋大學 Python 程式語言與資料處理', date: '2026/9 ~ 2027/1', text: 'Python 程式語言與資料處理課程。' },
     ],
     historyTitle: '歷年講座與課程',
     history: [
