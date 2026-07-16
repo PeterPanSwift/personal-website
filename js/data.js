@@ -368,7 +368,7 @@ const siteData = {
       '<strong>Swift iOS / Flutter 開發講師</strong>：臺灣大學資訊系統訓練班、ALPHA Camp、譯智教育訓練、資策會、職訓局、國家文官學院、台中軟體園區、TibaMe、STUDIO A、iPlayground、MOPCON、中華電信學院、新北市政府青年局',
       '<strong>學校 iOS 開發課程講師</strong>：海洋大學資工系、臺北科大資工系、臺北教育大學 iOS 社團、淡江大學 iOS 社團、台大共同教育中心、台大 CS+X、政治大學、中央大學、臺北大學、台北醫學大學、逢甲大學、文化大學、宏國德霖科大、醒吾科大、勤益科大、弘光科大、正修科大、慈濟科大、中國科大、龍華科大、中央警察大學、南崁高中、高雄美國學校、華砇程式社團',
       '<strong>專欄</strong>：AppCoda、ALPHA Camp',
-      '<strong>企業內訓</strong>：Yahoo、東和鋼鐵、聯陽半導體、世界先進、統一資訊、新光人壽、信義房屋、果思設計',
+      '<strong>企業內訓(Swift iOS、AI、Flutter)</strong>：Yahoo、東和鋼鐵、聯陽半導體、世界先進、統一資訊、新光人壽、信義房屋、果思設計',
       '<strong>WWDC Swift Student Challenge</strong> 得獎學生的指導老師',
       '<strong>技術顧問</strong>：FUNTEK、點點數位、英諾奧茲、Brocas',
       '<strong>iOS App 開發接案</strong>',
