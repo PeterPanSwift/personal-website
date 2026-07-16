@@ -103,9 +103,10 @@ const siteData = {
       { tag: '開課中', title: '彼得潘的 iOS SwiftUI App 程式設計入門', date: '2026/7/13 ~ 2026/8/31，每週一和四 19:00 ~ 22:00', text: '學習 iOS App 開發的最新技術：SwiftUI、Swift、iOS SDK、Xcode，成為酷炫的 iOS App 開發魔法師！' },
       { tag: '文組友善', title: '文組生的 iOS SwiftUI App 程式設計入門', date: '2026/3/10 ~ 2026/5/26，每週二 19:00 ~ 22:00', text: '專為文組生量身訂做，從零開始學程式，一步一步慢慢教！只要 12 個星期，每週一個晚上，即可學會程式設計的核心概念。' },
       { tag: 'UIKit', title: '彼得潘的 Swift iOS App 程式設計入門', date: '2026/3/12 ~ 2026/5/4，每週一和四 19:00 ~ 22:00', text: '學習 iOS App 開發的最新技術：UIKit、Swift、iOS SDK 和 Xcode，實現未來 App 工作、接案、創業的第二人生！' },
-      { tag: '跨平台', title: '彼得潘的 Flutter 跨平台 App 程式設計入門', date: '2026/1，臺灣大學資訊系統訓練班', text: '學習 Flutter 跨平台 App 開發的最新技術：Dart、Flutter SDK、VS Code，成為酷炫的 Flutter App 開發魔法師！' },
+      { tag: '跨平台', title: '彼得潘的 Flutter 跨平台 App 程式設計入門', date: '2026/7，臺灣大學資訊系統訓練班', text: '學習 Flutter 跨平台 App 開發的最新技術：Dart、Flutter SDK、VS Code，成為酷炫的 Flutter App 開發魔法師！' },
+      { tag: '跨平台', title: '彼得潘的 Flutter 跨平台 App 程式設計入門', date: '2026/7，ispan 資展國際', text: '學習 Flutter 跨平台 App 開發的最新技術：Dart、Flutter SDK、VS Code，成為酷炫的 Flutter App 開發魔法師！' }
       { tag: '大學課程', title: '海洋大學 Flutter App 入門', date: '2026/2 ~ 2026/6', text: '海洋大學資工系 Flutter 跨平台 App 開發課程。' },
-      { tag: '大學課程', title: '海洋大學 SwiftUI iOS App 入門', date: '2025/9 ~ 2026/1', text: '海洋大學資工系 SwiftUI iOS App 開發課程。' },
+      { tag: '大學課程', title: '海洋大學 SwiftUI iOS App 入門', date: '2026/9 ~ 2027/1', text: '海洋大學資工系 SwiftUI iOS App 開發課程。' },
       { tag: 'Python', title: '海洋大學 Python 程式語言與資料處理', date: '2026/2 ~ 2026/6', text: 'Python 程式語言與資料處理課程。' },
     ],
     historyTitle: '歷年講座與課程',
