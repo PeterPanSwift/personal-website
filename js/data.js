@@ -8,6 +8,7 @@ const siteData = {
   // ===== 導覽列 =====
   nav: [
     { text: 'Blog', href: '#blog' },
+    { text: '每天用 AI 做 App', href: '#aiapp' },
     { text: '開發教室', href: '#classroom' },
     { text: '家教', href: '#tutoring' },
     { text: '講座課程', href: '#courses' },
@@ -45,6 +46,18 @@ const siteData = {
     buttonText: '前往 Blog →',
     url: 'https://medium.com/@apppeterpan',
     image: 'images/blog-neverland.png',
+  },
+
+  // ===== 每天用 AI 做 App =====
+  aiapp: {
+    eyebrow: 'Vibe Code an App Every Day',
+    title: '每天用 AI 做 App',
+    lead: '每天一個小實驗，用 AI 打造好玩的 App 與圖像，收藏在小小的 AI App 星球上。',
+    heading: 'The Little AI App Planet',
+    text: '每個作品都從一個小問題開始：今天能不能靠 AI 把這個點子變成真的？來星球上逛逛彼得潘每天用 AI 完成的創作吧。',
+    buttonText: '前往 AI App 星球 →',
+    url: 'https://the-little-ai-app-planet.pages.dev',
+    image: 'https://the-little-ai-app-planet.pages.dev/assets/fox-space-edited.png',
   },
 
   // ===== 開發教室 =====

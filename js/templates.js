@@ -46,6 +46,19 @@
       <a href="${d.blog.url}" ${ext}><img src="${d.blog.image}" alt="${d.blog.title}" loading="lazy"></a>
     </div>`,
 
+      aiapp: `
+    <p class="eyebrow reveal">${d.aiapp.eyebrow}</p>
+    <h2 class="reveal">${d.aiapp.title}</h2>
+    <p class="section-lead reveal">${d.aiapp.lead}</p>
+    <div class="blog-card reveal">
+      <a href="${d.aiapp.url}" ${ext}><img src="${d.aiapp.image}" alt="${d.aiapp.heading}" loading="lazy"></a>
+      <div class="blog-body">
+        <h3>${d.aiapp.heading}</h3>
+        <p>${d.aiapp.text}</p>
+        <a class="btn btn-primary" href="${d.aiapp.url}" ${ext}>${d.aiapp.buttonText}</a>
+      </div>
+    </div>`,
+
       classroom: `
     <p class="eyebrow reveal">${d.classroom.eyebrow}</p>
     <h2 class="reveal">${d.classroom.title}</h2>

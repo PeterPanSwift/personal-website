@@ -10,7 +10,7 @@
   document.getElementById('heroContent').innerHTML = t.hero;
   document.getElementById('statsGrid').innerHTML = t.stats;
 
-  ['blog', 'classroom', 'tutoring', 'courses', 'books', 'apps', 'essays', 'experience', 'contact']
+  ['blog', 'aiapp', 'classroom', 'tutoring', 'courses', 'books', 'apps', 'essays', 'experience', 'contact']
     .forEach((id) => {
       document.querySelector(`#${id} .container`).innerHTML = t[id];
     });

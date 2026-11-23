@@ -35,7 +35,7 @@ const fill = (pattern, content, label) => {
 fill(/(<nav class="nav-links" id="navLinks">)(<\/nav>)/, t.nav, 'navLinks');
 fill(/(<div class="hero-content reveal" id="heroContent">)(<\/div>)/, t.hero, 'heroContent');
 fill(/(<div class="container stats-grid reveal" id="statsGrid">)(<\/div>)/, t.stats, 'statsGrid');
-for (const id of ['blog', 'classroom', 'tutoring', 'courses', 'books', 'apps', 'essays', 'experience', 'contact']) {
+for (const id of ['blog', 'aiapp', 'classroom', 'tutoring', 'courses', 'books', 'apps', 'essays', 'experience', 'contact']) {
   fill(new RegExp(`(<section[^>]*id="${id}">\\s*<div class="container">)(</div>)`), t[id], `#${id} .container`);
 }
 fill(/(<p id="footerText">)(<\/p>)/, t.footer, 'footerText');
